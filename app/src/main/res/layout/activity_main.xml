@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <com.alamkanak.weekview.WeekView
+        android:id="@+id/calendar_day_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:numberOfVisibleDays="1"
+        app:hourHeight="60dp"
+        app:timeColumnTextColor="@color/colorAccent"
+        app:showNowLine="true"
+        app:showNowLineDot="true"
+        app:showTimeColumnSeparator="true"
+        app:timeColumnSeparatorColor="@color/colorAccent"
+        app:timeColumnPadding="10dp"
+        app:timeColumnTextSize="12sp"
+
+        app:headerRowTextSize="0sp"
+        app:headerRowPadding="0dp"
+        app:showHeaderRowBottomLine="true"
+        app:headerRowBottomLineColor="@color/colorAccent"
+        app:headerRowBottomLineWidth="0.5dp"
+
+        app:eventTextColor="@android:color/white"
+        app:eventTextSize="16sp"
+        app:eventPadding="15dp"
+        app:eventCornerRadius="5dp"
+        app:defaultEventColor="@color/colorAccent"
+
+        app:timeColumnBackgroundColor="@android:color/white"
+        app:dayBackgroundColor="@android:color/white"
+        app:headerRowBackgroundColor="@android:color/white"
+        app:todayBackgroundColor="@android:color/white"
+
+        app:nowLineColor="@color/colorAccent"
+        app:nowLineDotColor="@color/colorAccent"
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
