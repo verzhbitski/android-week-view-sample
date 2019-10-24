@@ -43,8 +43,6 @@ public class MainActivity extends AppCompatActivity {
         private Calendar end;
         private boolean allDay;
 
-        public String taskUuid;
-
         public DayViewEvent() {
             id = "Sample".hashCode();
             title = "Sample";
